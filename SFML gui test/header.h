@@ -19,6 +19,7 @@ void stdRuinBeskrivning(int i);
 void indRuinBeskrivning(int i);
 void humanoidBeskrivning(int);
 void monsterBeskrivning(int i);
+void fenomenBeskrivning(int i);
 
 int diceRoll(int dice);
 

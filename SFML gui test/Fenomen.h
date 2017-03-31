@@ -7,7 +7,7 @@ namespace bw {
 	public:
 		Fenomen() : value(0) {};
 
-		std::string text[20]{
+		std::string text[21]{
 			u8"Askvind"
 			, u8"Atomköld / Extremhetta"
 			, u8"Blindgångare"
@@ -28,6 +28,7 @@ namespace bw {
 			, u8"Vakuum"
 			, u8"Zongölar"
 			, u8"Zonsmog"
+			, u8"Het källa"
 		};
 		std::string prefix[13]{
 			u8"11-12"
@@ -44,9 +45,9 @@ namespace bw {
 			, u8"61-64"
 			, u8"65-66"
 		};
-		int range[2][20]{
-			{ 11,13,15,21,23,25,31,33,35,41,42,44,46,51,52,53,56,61,62,64 }
-			,{ 12,14,16,22,24,26,32,34,36,41,43,45,46,51,52,55,56,61,63,66 }
+		int range[2][21]{
+			 { 11,13,15,21,23,25,31,33,35,41,42,44,46,51,52,53,56,61,62,64,66 }
+			,{ 12,14,16,22,24,26,32,34,36,41,43,45,46,51,52,55,56,61,63,65,66 }
 		};
 
 		int value;
